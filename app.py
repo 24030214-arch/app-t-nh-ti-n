@@ -1,4 +1,4 @@
-import os
+import streamlit as st
 st.image("IMG_5982.png", use_container_width=True)
 import pandas as pd
 from datetime import datetime
