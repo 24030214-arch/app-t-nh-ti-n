@@ -1,7 +1,7 @@
 import os
 st.image("IMG_5982.png", use_container_width=True)
-from datetime import datetime
 import pandas as pd
+from datetime import datetime
 import streamlit as st
 st.set_page_config(page_title="Order Nhà Hàng", layout="wide")
 
@@ -55,7 +55,7 @@ if "admin_logged_in" not in st.session_state:
 # Thanh điều hướng dạng RADIO hiển thị trực diện ngay trên Sidebar
 page = st.sidebar.radio("📋 Chọn trang hệ thống", ["🍽️ Order", "🔑 Admin"])
 
-if page == "🍽️ Order":
+if page == "🍽️ Order": 
     st.title("🍽️ Hệ thống Order Nhà Hàng_Dr Bình")
     st.caption("Ghi nhận order nhanh chóng và chính xác theo thời gian thực")
 
